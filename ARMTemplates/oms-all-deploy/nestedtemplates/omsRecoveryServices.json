@@ -139,6 +139,7 @@
       "type": "Microsoft.Storage/storageAccounts",
       "comments": "Storage account for ASR",
       "properties": {
+        "subscriptionId": "[subscription().subscriptionId]",
         "accountType": "[variables('recoveryStorageType')]"
       }
     }
